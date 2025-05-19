@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "imagem": "./src/assets/img1.jpg",
+      "titulo": "Projeto 1",
+      "descricao": "Descrição do projeto 1"
+    },
+      {
+      "id": 2,
+      "imagem": "./src/assets/img3.jpg",
+      "titulo": "Jogo Cassino",
+      "descricao": "Descrição do projeto 2"
+    },
+      {
+      "id": 3,
+      "imagem": "./src/assets/img4.jpg",
+      "titulo": "Jogo do Super Mario",
+      "descricao": "Descrição do projeto 3"
+    }
+  ]
