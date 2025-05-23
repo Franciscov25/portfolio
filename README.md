@@ -1,12 +1,37 @@
-# React + Vite
+# Portfólio Francisco Vargas | 2025
+img
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Desenvolvi este portfólio como forma de aprofundamento de estudos e para divulgação de trabalhos realizados.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
+- ReactJS + Vite ⚛️
+- Tailwind CSS
+- React Router Dom
+- Particle.js
+- Lucide React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Passo a passo para rodar o projeto
 
-## Expanding the ESLint configuration
+Antes de começarmos, confira se o Node.js está instalado em sua máquina com o seguinte comando:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+node --version
+```
+
+1️⃣ Na raiz do projeto, rode o comando `npm install` para realizar a instalação do pacote `node_modules`.
+
+```bash
+npm install
+```
+
+2️⃣ Na sequência, rode o comando para colocar em funcionamento o servidor local
+
+```bash
+npm run dev
+```
+
+✅ Abra o seu localhost e confira o resultado!
+
+## Participantes
+- Francisco Vargas Marçal | RM560322
