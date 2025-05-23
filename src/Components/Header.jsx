@@ -1,23 +1,92 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-
-
+// src/Components/Header.jsx
+import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { Home as HomeIcon, User as UserIcon, Code as CodeIcon, Mail as MailIcon } from 'lucide-react'; // Ícones lucide-react
 
 const Header = () => {
-  return (
-    <>
-    <header className='bg-gray-800 text-amber-500 p-8'>
-        <div className='container mx-auto flex justify-between items-center'>
-            <h1 className='text-xl font-bold'><Link to="/">FV</Link></h1>
-            <nav className='relative'>
-                <Link to="/projetos" className='mr-6 transition duration-150 hover:text-amber-700'>Projetos</Link>
-                <Link to="/sobre" className='mr-6 transition duration-150 hover:text-amber-700'>Sobre mim</Link>
-                <Link to="/contato" className='mr-10 transition duration-150 hover:text-amber-700'>Contato</Link>
-            </nav>
-        </div>
-    </header>
-    </>
-  )
-}
+  const location = useLocation(); // Hook para pegar a localização atual da rota
+  const [scrolled, setScrolled] = useState(false); // Estado para controlar se a página foi scrollada
 
-export default Header
+  // Efeito para adicionar/remover a classe de scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      // Se a posição do scroll vertical for maior que 20 pixels (ajuste conforme necessário)
+      // então setScrolled(true), caso contrário setScrolled(false).
+      if (window.scrollY > 20) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    // Adiciona o event listener de scroll quando o componente é montado
+    window.addEventListener('scroll', handleScroll);
+
+    // Remove o event listener quando o componente é desmontado para evitar vazamento de memória
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []); // O array vazio garante que o efeito só rode uma vez (na montagem e desmontagem)
+
+  return (
+    <header
+      className={`fixed top-0 left-0 w-full z-50 py-4 px-6 flex items-center justify-between transition-colors duration-300
+        ${scrolled ? 'bg-zinc-900 bg-opacity-70 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}
+    >
+      <div className="flex items-center space-x-2">
+        {/* Logo ou Nome do Portfólio */}
+        <Link to="/" className="text-orange-500 text-3xl font-bold flex items-center gap-2">
+          <span className="text-emerald-500 text-4xl font-extrabold">F</span>
+          <span className="text-white text-4xl font-extrabold">V</span>
+        </Link>
+      </div>
+
+      <nav>
+        <ul className="flex space-x-6">
+          <li>
+            <Link
+              to="/"
+              className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
+                ${location.pathname === '/' ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+            >
+              <HomeIcon size={20} />
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/sobre"
+              className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
+                ${location.pathname === '/sobre' ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+            >
+              <UserIcon size={20} />
+              Sobre
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/projetos"
+              className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
+                ${location.pathname === '/projetos' || location.pathname.startsWith('/projetos/') ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+            >
+              <CodeIcon size={20} />
+              Projetos
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contato"
+              className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
+                ${location.pathname === '/contato' ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+            >
+            <MailIcon size={20} />
+              Contato
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;

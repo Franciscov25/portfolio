@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import github from '../assets/github.png'
 
 const TypingText = ({ sentences, typingSpeed = 100, deletingSpeed = 50, pauseDuration = 2000 }) => {
   const [text, setText] = useState('');
@@ -47,12 +46,6 @@ const TypingText = ({ sentences, typingSpeed = 100, deletingSpeed = 50, pauseDur
         </div>
     </div>
 
-    {/* Imagem */}
-    <img
-        src={github}
-        alt="Francisco Vargas"
-        className="w-64 h-64 rounded-full object-cover shadow-lg"
-    />
     </div>
 
     </>

@@ -6,7 +6,7 @@ import email from '../assets/gmail.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-10">
+    <footer className="bg-zinc-900 text-white py-8 mt-10 relative z-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3 className="text-xl font-semibold mb-4">Contato</h3>
         <ul className="flex justify-center space-x-6 mb-4">
