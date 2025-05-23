@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "imagem": "/src/assets/img-projeto-1.png",
+    "titulo": "Challenge FIAP + Hospital Infantil Sabará | Smart Flow",
+    "descricao": "Neste projeto, colaboramos com o Hospital Infantil Sabará para otimizar o fluxo de pacientes, utilizando tecnologia para reduzir o tempo de espera e melhorar a experiência hospitalar.",
+    "data": "29 de Janeiro de 2025",
+    "area": "Back-end"
+  },
+  {
+    "id": 2,
+    "imagem": "/src/assets/img-projeto-2.png",
+    "titulo": "Iniciação Científica - FIAP | Smart Glass",
+    "descricao": "Desenvolvimento de um protótipo de óculos inteligentes na Iniciação Científica da FIAP, explorando realidade aumentada para aplicações diversas, como assistência remota e visualização de dados.",
+    "data": "21 de Novembro de 2024",
+    "area": "Internet of Things (IoT)"
+  },
+  {
+    "id": 3,
+    "imagem": "/src/assets/img-projeto-3.png",
+    "titulo": "Global Solution | Green Energy",
+    "descricao": "Projeto focado em soluções de energia sustentável para a Global Solution, visando a redução do impacto ambiental e a promoção de fontes de energia limpa e renovável.",
+    "data": "6 de Outubro de 2024",
+    "area": "Front-end"
+  },
+  {
+    "id": 4,
+    "imagem": "/src/assets/img-projeto-4.png",
+    "titulo": "Hackathon IBM | IA para Gestão de Resíduos",
+    "descricao": "Participação em hackathon da IBM, desenvolvendo uma solução de IA para otimizar a gestão de resíduos em grandes centros urbanos, buscando eficiência e sustentabilidade.",
+    "data": "15 de Setembro de 2024",
+    "area": "Inteligência Artificial"
+  },
+  {
+    "id": 5,
+    "imagem": "/src/assets/img-projeto-5.png",
+    "titulo": "Projeto Integrado FIAP | E-commerce Sustentável",
+    "descricao": "Criação de uma plataforma de e-commerce com foco em produtos sustentáveis e práticas de consumo consciente, incentivando um estilo de vida mais ecológico.",
+    "data": "10 de Agosto de 2024",
+    "area": "Desenvolvimento Web"
+  }
+]
