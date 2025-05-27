@@ -1,20 +1,20 @@
 // src/routes/Home.jsx
 import React from 'react';
 import TypingText from '../Components/Typer';
-import perfilImage from '../assets/eu.png'; // Caminho da imagem de perfil corrigido
+import perfilImage from '../assets/eu.png';
+import GitHubContributions from '../Components/GitHubContributions'; // Importe o novo componente
 
 const Home = () => {
   const phrases = [
-    "Olá! Bem-vindo ao meu portfólio.",
-    "Meu nome é Francisco Vargas!",
-    "Estudante de Engenharia de Software.",
-    "Explore meus projetos e entre em contato!",
-    "Obrigado por visitar!",
+    "Engenharia de Software",
+    "Full Stack Developer",
+    "Entusiasta em Dados e IA",
   ];
 
+  // Seu nome de usuário do GitHub
+  const yourGithubUsername = "Franciscov25"; //
+
   return (
-    // Adicione 'relative z-10' (ou z-20, um valor alto) para garantir que o conteúdo desta rota
-    // esteja acima das partículas. O 'bg-zinc-900' cobrirá as partículas por trás.
     <div className='text-white min-h-[calc(100vh-64px)] flex flex-col items-center justify-center py-12 px-4 relative z-10'>
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
         {/* Seção de Texto e Imagem */}
@@ -31,7 +31,7 @@ const Home = () => {
 
         {/* Imagem de Perfil Circular */}
         <div className="mt-8 md:mt-0 flex-shrink-0">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-emerald-500 p-2 flex items-center justify-center shadow-lg">
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-blue-500 p-2 flex items-center justify-center shadow-lg">
             <img
               src={perfilImage}
               alt="Francisco Vargas - Perfil"
@@ -40,6 +40,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      {/* Adicione o componente GitHubContributions aqui, abaixo da seção principal */}
+      <div className="w-full mt-16 px-4"> {/* Ajuste o espaçamento conforme necessário */}
+        <GitHubContributions username={yourGithubUsername} />
+      </div>
+
     </div>
   );
 };

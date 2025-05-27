@@ -25,7 +25,7 @@ const Projetos = () => {
   return (
     // Mantenha 'relative z-10' aqui. Isso garante que a seção de Projetos crie seu próprio
     // contexto de empilhamento e fique ACIMA das partículas.
-    <section id="projetos" className="py-12 text-white min-h-[calc(100vh-64px)] px-4 relative z-10">
+    <section id="projetos" className="mt-30 py-12 text-white min-h-[calc(100vh-64px)] px-4 relative z-10">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-center mb-10 text-white">
           Meus Projetos
