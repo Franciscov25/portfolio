@@ -24,7 +24,7 @@ const DetalhesProjeto = () => {
   return (
     // Adicione 'relative z-10' e 'bg-zinc-900' para garantir que o conteúdo desta página
     // esteja acima das partículas e tenha um fundo sólido.
-    <div className="text-white min-h-[calc(100vh-64px)] py-12 px-4 relative z-10">
+    <div className="text-white mt-20  min-h-[calc(100vh-64px)] py-12 px-4 relative z-10">
       <div className="container mx-auto max-w-4xl">
         <Link
           to="/projetos"

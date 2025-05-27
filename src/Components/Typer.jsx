@@ -37,10 +37,10 @@ const TypingText = ({ sentences, typingSpeed = 100, deletingSpeed = 50, pauseDur
     <div className="flex flex-col md:flex-row items-center justify-center min-h-screen px-4 gap-8">
     {/* Texto */}
     <div className="text-center md:text-left">
-        <h1 className="text-4xl font-semibold text-amber-500 mb-4">
+        <h1 className="text-4xl font-bold text-blue-400 mb-4">
         Olá, meu nome é Francisco Vargas!
         </h1>
-        <div className="typing-container font-semibold text-amber-600">
+        <div className="typing-container font-semibold text-blue-500">
         <span className="typing-text text-2xl">{text}</span>
         <span className="cursor">|</span>
         </div>

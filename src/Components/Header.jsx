@@ -36,8 +36,7 @@ const Header = () => {
       <div className="flex items-center space-x-2">
         {/* Logo ou Nome do Portfólio */}
         <Link to="/" className="text-orange-500 text-3xl font-bold flex items-center gap-2">
-          <span className="text-emerald-500 text-4xl font-extrabold">F</span>
-          <span className="text-white text-4xl font-extrabold">V</span>
+          <span className="text-blue-400 text-4xl font-extrabold">FV</span>
         </Link>
       </div>
 
@@ -47,7 +46,7 @@ const Header = () => {
             <Link
               to="/"
               className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
-                ${location.pathname === '/' ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+                ${location.pathname === '/' ? 'text-blue-400' : 'text-gray-400 hover:text-white'}`}
             >
               <HomeIcon size={20} />
               Home
@@ -57,7 +56,7 @@ const Header = () => {
             <Link
               to="/sobre"
               className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
-                ${location.pathname === '/sobre' ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+                ${location.pathname === '/sobre' ? 'text-blue-400' : 'text-gray-400 hover:text-white'}`}
             >
               <UserIcon size={20} />
               Sobre
@@ -67,7 +66,7 @@ const Header = () => {
             <Link
               to="/projetos"
               className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
-                ${location.pathname === '/projetos' || location.pathname.startsWith('/projetos/') ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+                ${location.pathname === '/projetos' || location.pathname.startsWith('/projetos/') ? 'text-blue-400' : 'text-gray-400 hover:text-white'}`}
             >
               <CodeIcon size={20} />
               Projetos
@@ -77,7 +76,7 @@ const Header = () => {
             <Link
               to="/contato"
               className={`flex flex-col items-center text-sm font-medium transition-colors duration-300
-                ${location.pathname === '/contato' ? 'text-emerald-500' : 'text-gray-400 hover:text-white'}`}
+                ${location.pathname === '/contato' ? 'text-blue-400' : 'text-gray-400 hover:text-white'}`}
             >
             <MailIcon size={20} />
               Contato
