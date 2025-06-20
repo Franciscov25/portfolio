@@ -1,19 +1,33 @@
 [
   {
-    "id": 1,
-    "imagem": "/src/assets/img-projeto-1.png",
-    "titulo": "Challenge FIAP + Hospital Infantil Sabará | Smart Flow",
-    "descricao": "Neste projeto, colaboramos com o Hospital Infantil Sabará para otimizar o fluxo de pacientes, utilizando tecnologia para reduzir o tempo de espera e melhorar a experiência hospitalar.",
-    "data": "29 de Janeiro de 2025",
-    "area": "Back-end"
+    "id": 6,
+    "imagem": "/src/assets/img-projeto-6.png",
+    "titulo": "Challenge Hospital Infantil Sabará | Smart Flow - Sprint 4/4",
+    "descricao": "",
+    "data": "15 de Julho de 2025",
+    "area": "Internet of Things (IoT)",
+    "github": "https://github.com/GrupoCodeNexus/Challenge4-SmartFlow___EDGE",
+    "youtube": "https://www.youtube.com/watch?v=q70sOJ2YvM4&t=142s"
   },
   {
     "id": 2,
     "imagem": "/src/assets/img-projeto-2.png",
-    "titulo": "Iniciação Científica - FIAP | Smart Glass",
+    "titulo": "Iniciação Científica - FIAP | Smart Vision",
     "descricao": "Desenvolvimento de um protótipo de óculos inteligentes na Iniciação Científica da FIAP, explorando realidade aumentada para aplicações diversas, como assistência remota e visualização de dados.",
-    "data": "21 de Novembro de 2024",
-    "area": "Internet of Things (IoT)"
+    "data": "21 de Abril de 2024",
+    "area": "Internet of Things (IoT)",
+    "youtube": "https://www.youtube.com/watch?v=m0VWUzefaoI"
+  },
+  {
+    "id": 1,
+    "imagem": "/src/assets/img-projeto-1.png",
+    "titulo": "Challenge FIAP + Hospital Infantil Sabará | Smart Flow - Sprint 3/4",
+    "descricao": "Neste projeto, colaboramos com o Hospital Infantil Sabará para otimizar o fluxo de pacientes, utilizando tecnologia para reduzir o tempo de espera e melhorar a experiência hospitalar.",
+    "data": "07 de Maio de 2025",
+    "area": "Back-end",
+    "github": "https://github.com/GrupoCodeNexus/Sprint-EDGE",
+    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_challenge-fiap-hospital-infantil-sabará-activity-7326006383823228929",
+    "youtube": "https://www.youtube.com/shorts/KnQHdxY6k8I"
   },
   {
     "id": 3,
@@ -21,7 +35,9 @@
     "titulo": "Global Solution | Green Energy",
     "descricao": "Projeto focado em soluções de energia sustentável para a Global Solution, visando a redução do impacto ambiental e a promoção de fontes de energia limpa e renovável.",
     "data": "6 de Outubro de 2024",
-    "area": "Front-end"
+    "area": "Front-end",
+    "youtube": "https://www.youtube.com/watch?v=iBvb_p-wRn4",
+    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_tenho-prazer-de-compartilhar-este-projeto-activity-7308973689411190784-DFXx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpiFLwB7nRmu7mYAZD2wto4Tpc4heIsmcU"
   },
   {
     "id": 4,
@@ -29,14 +45,17 @@
     "titulo": "Hackathon IBM | IA para Gestão de Resíduos",
     "descricao": "Participação em hackathon da IBM, desenvolvendo uma solução de IA para otimizar a gestão de resíduos em grandes centros urbanos, buscando eficiência e sustentabilidade.",
     "data": "15 de Setembro de 2024",
-    "area": "Inteligência Artificial"
+    "area": "Inteligência Artificial",
+    "github": "https://github.com/RockSolutionsFIAP/AnalisIA"
   },
   {
     "id": 5,
     "imagem": "/src/assets/img-projeto-5.png",
-    "titulo": "Projeto Integrado FIAP | E-commerce Sustentável",
-    "descricao": "Criação de uma plataforma de e-commerce com foco em produtos sustentáveis e práticas de consumo consciente, incentivando um estilo de vida mais ecológico.",
+    "titulo": "Global Solution | Protech the Future",
+    "descricao": "Website com foco em divulgar a nossa solução dentro do tema de desastres naturais, um projeto promovido pela FIAP em parceria com a IBM, Corpo de Bombeiros, Defesa Cívil de Santo andré, Médicos Sem Fronteiras e o INPE.",
     "data": "10 de Agosto de 2024",
-    "area": "Desenvolvimento Web"
+    "area": "Desenvolvimento Web",
+    "github": "https://github.com/GrupoCodeNexus/GeoPulse",
+    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_tecnologia-engenhariadesoftware-dev-activity-7341459004079988736-tjWp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpiFLwB7nRmu7mYAZD2wto4Tpc4heIsmcU"
   }
 ]
