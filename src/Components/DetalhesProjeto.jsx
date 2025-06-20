@@ -28,7 +28,7 @@ const DetalhesProjeto = () => {
       <div className="container mx-auto max-w-4xl">
         <Link
           to="/projetos"
-          className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-4 rounded-md transition duration-300 mb-8"
+          className="inline-block bg-blue-400 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 mb-8"
         >
           &larr; Voltar para Projetos
         </Link>
