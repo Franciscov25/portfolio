@@ -14,6 +14,10 @@ Desenvolvi este portfólio como forma de aprofundamento de estudos e para divulg
 - Radix UI
 - Framer Motion
 
+## API's 
+- GitHub
+- Spotify
+
 ## Passo a passo para rodar o projeto
 
 Antes de começarmos, confira se o Node.js está instalado em sua máquina com o seguinte comando:
