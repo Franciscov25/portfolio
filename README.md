@@ -10,6 +10,9 @@ Desenvolvi este portfólio como forma de aprofundamento de estudos e para divulg
 - React Router Dom
 - Particle.js
 - Lucide React
+- React Icons
+- Radix UI
+- Framer Motion
 
 ## Passo a passo para rodar o projeto
 
