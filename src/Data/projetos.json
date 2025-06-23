@@ -3,11 +3,72 @@
     "id": 6,
     "imagem": "/src/assets/img-projeto-6.png",
     "titulo": "Challenge Hospital Infantil Sabará | Smart Flow - Sprint 4/4",
-    "descricao": "",
+    "descricao": "Entrega final do projeto Smart Flow, desenvolvido em parceria com o Hospital Infantil Sabará.",
     "data": "15 de Julho de 2025",
     "area": "Internet of Things (IoT)",
     "github": "https://github.com/GrupoCodeNexus/Challenge4-SmartFlow___EDGE",
-    "youtube": "https://www.youtube.com/watch?v=q70sOJ2YvM4&t=142s"
+    "youtube": "https://www.youtube.com/watch?v=q70sOJ2YvM4&t=142s",
+    "detalhes":{
+      "titulo": "O que é o Smart Flow?",
+      "descricao": "O projeto Smart Flow é um módulo de controle de acessos inteligente que possui integração com o dois sistemas que nós desenvolvemos. O primeiro é para as enfermeiras, e o segundo é para a fármacia.",
+      "imagem": "/src/assets/smartflow-tl.png"
+    },
+    "insightsVisuais": {
+      "tituloSecao": "Resultados e Inovação",
+      "imagemCentral": "/src/assets/smartflow-result-icon.png",
+      "altImagemCentral": "Ícone de resultados Smart Flow",
+      "conteudoEsquerda": [
+        {
+          "icone": "FaLightbulb",
+          "titulo": "Inovação Tecnológica",
+          "descricao": "Integração de IoT para automação e coleta de dados em tempo real."
+        },
+        {
+          "icone": "FaHeartbeat",
+          "titulo": "Impacto Humanitário",
+          "descricao": "Otimização do atendimento e redução do estresse para famílias."
+        }
+      ],
+      "conteudoDireita": [
+        {
+          "icone": "FaChartLine",
+          "titulo": "Eficiência Operacional",
+          "descricao": "Redução de tempo de espera e melhor gestão de leitos."
+        },
+        {
+          "icone": "FaShieldAlt",
+          "titulo": "Segurança",
+          "descricao": "Implementação de protocolos robustos para proteção de informações e dos medicamentos e insumos."
+        }
+      ]
+    },
+    "tecnologiasUtilizadas": [  
+      {
+        "nome": "React",
+        "icone": "FaReact",
+        "cor": "#61DAFB"
+      },
+      {
+        "nome": "Node.js",
+        "icone": "FaNodeJs",
+        "cor": "#8CC84B"
+      },
+      {
+        "nome": "Python",
+        "icone": "FaPython",
+        "cor": "#06B6D4"
+      },
+      {
+        "nome": "Flask",
+        "icone": "FaFlask",
+        "cor": "#47A248"
+      },
+      {
+        "nome":"IoT",
+        "icone": "FaMicrochip",
+        "cor": "#FF5722"
+      }
+    ]
   },
   {
     "id": 2,
@@ -56,6 +117,38 @@
     "data": "10 de Agosto de 2024",
     "area": "Desenvolvimento Web",
     "github": "https://github.com/GrupoCodeNexus/GeoPulse",
-    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_tecnologia-engenhariadesoftware-dev-activity-7341459004079988736-tjWp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpiFLwB7nRmu7mYAZD2wto4Tpc4heIsmcU"
+    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_tecnologia-engenhariadesoftware-dev-activity-7341459004079988736-tjWp?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpiFLwB7nRmu7mYAZD2wto4Tpc4heIsmcU",
+    "detalhes": {
+      "titulo": "O que é o Geo Pulse?",
+      "descricao": "O Geo Pulse é um projeto pensado para enviar alertas sobre nível de gás, temperatura e umidade, promovendo previsibilidade para áreas de risco de desastres naturais.",
+      "imagem": "/src/assets/geopulse.png"
+    },
+    "tecnologiasUtilizadas": [ 
+      {
+        "nome": "React",
+        "icone": "FaReact",
+        "cor": "#61DAFB"
+      },
+      {
+        "nome": "Node.js",
+        "icone": "FaNodeJs",
+        "cor": "#8CC84B"
+      },
+      {
+        "nome": "Tailwind CSS",
+        "icone": "FaCss3Alt",
+        "cor": "#06B6D4"
+      },
+      {
+        "nome": "Framer Motion",
+        "icone": "FaSquare",
+        "cor": "#AD2BFF"
+      },
+      {
+        "nome": "React Icons",
+        "icone": "FaIcons",
+        "cor": "#47A248"
+      }
+    ]
   }
 ]
