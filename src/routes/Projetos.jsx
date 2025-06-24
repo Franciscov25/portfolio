@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import projetosData from '../data/projetos.json';
 import { motion } from 'framer-motion';
 import { FaStar, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import ScrollToTopButton from '../Components/ScrollToTopButton';
 
 const Projetos = () => {
   const [projetos, setProjetos] = useState([]);
@@ -12,7 +13,6 @@ const Projetos = () => {
 
   useEffect(() => {
     setProjetos(projetosData);
-
     const areas = ['Todas', ...new Set(projetosData.map(projeto => projeto.area))];
     setAvailableAreas(areas);
   }, []);
@@ -24,9 +24,7 @@ const Projetos = () => {
   });
 
   const projetosDestaque = projetos.slice(0, 2);
-
-  // Ícone style para links sociais
-  const iconClasses = "text-yellow-400 hover:text-yellow-300 transition-colors duration-300";
+  const iconClasses = "text-sky-300 hover:text-white transition-colors duration-300";
 
   return (
     <motion.section
@@ -42,9 +40,9 @@ const Projetos = () => {
           Meus Projetos
         </h2>
 
-        {/* Seção Destaque */}
+        {/* Destaques */}
         <section className="mb-16">
-          <h3 className="text-3xl font-semibold mb-8 flex items-center justify-center gap-2 text-yellow-400">
+          <h3 className="text-3xl font-semibold mb-8 flex items-center justify-center gap-2 text-sky-300">
             <FaStar /> Projetos em Destaque
           </h3>
 
@@ -52,7 +50,7 @@ const Projetos = () => {
             {projetosDestaque.map((projeto, index) => (
               <motion.div
                 key={projeto.id}
-                className="bg-yellow-900 bg-opacity-20 rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row hover:scale-[1.03] transition-transform duration-300"
+                className="border border-sky-400 bg-opacity-20 rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row hover:scale-[1.03] transition-transform duration-300"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.2 }}
@@ -66,21 +64,21 @@ const Projetos = () => {
                 </Link>
                 <div className="p-6 flex flex-col justify-between md:w-1/2">
                   <div>
-                    <h4 className="text-2xl font-bold mb-3 text-yellow-300">{projeto.titulo}</h4>
-                    <p className="text-yellow-200 mb-4 line-clamp-4">{projeto.descricao}</p>
+                    <h4 className="text-2xl font-bold mb-3 text-white">{projeto.titulo}</h4>
+                    <p className="text-gray-300 mb-4 line-clamp-4">{projeto.descricao}</p>
                   </div>
-                  <div className="text-yellow-400 text-sm mb-4">
+                  <div className="text-sky-300 text-sm mb-4">
                     <p>{projeto.data}</p>
                     <p className="italic">{projeto.area}</p>
                   </div>
                   <div className="flex flex-col sm:flex-row sm:items-center sm:gap-4">
                     <Link
                       to={`/projetos/${projeto.id}`}
-                      className="inline-block bg-yellow-400 hover:bg-yellow-500 text-yellow-900 font-semibold py-2 px-4 rounded-md text-center transition duration-300"
+                      className="inline-block bg-sky-300 border border-sky-300 hover:bg-transparent hover:border-white text-black hover:text-white font-semibold py-2 px-4 rounded-md text-center transition duration-300"
                     >
                       Ver Projeto
                     </Link>
-                    <div className="flex mt-3 sm:mt-0 space-x-4 text-yellow-400 text-xl">
+                    <div className="flex mt-3 sm:mt-0 space-x-4 text-xl">
                       {projeto.github && (
                         <a href={projeto.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub" className={iconClasses}>
                           <FaGithub />
@@ -92,7 +90,7 @@ const Projetos = () => {
                         </a>
                       )}
                       {projeto.youtube && (
-                        <a href={projeto.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className={iconClasses}>
+                        <a href={projeto.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-red-500 hover:text-red-300 transition-colors duration-300">
                           <FaYoutube />
                         </a>
                       )}
@@ -104,28 +102,17 @@ const Projetos = () => {
           </div>
         </section>
 
-        {/* Barra de pesquisa e Filtro por Área */}
+        {/* Filtro e pesquisa */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
           <div className="relative w-full md:w-1/3">
             <input
               type="text"
               placeholder="Pesquisar por título..."
-              className="w-full pl-10 pr-4 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full pl-10 pr-4 py-2 rounded-lg border border-blue-400 text-blue placeholder-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
-            <svg
-              className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
+            <svg className="absolute left-3 top-1/2 transform -translate-y-1/2 text-blue-400" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
@@ -133,7 +120,7 @@ const Projetos = () => {
 
           <div className="relative w-full md:w-1/4">
             <select
-              className="w-full pl-4 pr-10 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-white appearance-none focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full pl-4 pr-10 py-2 rounded-lg border border-blue-400 text-blue-400 appearance-none focus:outline-none focus:ring-2 focus:ring-blue-500"
               value={selectedArea}
               onChange={(e) => setSelectedArea(e.target.value)}
             >
@@ -144,23 +131,19 @@ const Projetos = () => {
               ))}
             </select>
             <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-400">
-              <svg
-                className="fill-current h-4 w-4"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
+              <svg className="fill-current h-4 w-4 text-blue-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
             </div>
           </div>
         </div>
 
-        {/* Grade de projetos com animação */}
+        {/* Lista de projetos */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjetos.map((projeto, index) => (
             <motion.div
               key={projeto.id}
-              className="bg-zinc-800 rounded-lg shadow-lg overflow-hidden flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+              className="border border-sky-400 rounded-lg shadow-lg overflow-hidden flex flex-col transform transition duration-300 hover:scale-105 hover:shadow-2xl"
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 0.1 }}
@@ -186,7 +169,7 @@ const Projetos = () => {
                 <div className="mt-auto">
                   <Link
                     to={`/projetos/${projeto.id}`}
-                    className="inline-block w-full text-center bg-blue-400 hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded-md transition duration-300 mb-3"
+                    className="inline-block w-full text-center border border-blue-400 bg-blue-400 hover:bg-transparent hover:border-blue-400 text-white font-semibold py-2 px-4 rounded-md transition duration-300 mb-3"
                   >
                     Ver Projeto
                   </Link>
@@ -202,7 +185,7 @@ const Projetos = () => {
                       </a>
                     )}
                     {projeto.youtube && (
-                      <a href={projeto.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="hover:text-blue-300 transition-colors duration-300">
+                      <a href={projeto.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-red-500 hover:text-red-300 transition-colors duration-300">
                         <FaYoutube />
                       </a>
                     )}
@@ -216,6 +199,7 @@ const Projetos = () => {
         {filteredProjetos.length === 0 && (
           <p className="text-center text-gray-400 mt-8">Nenhum projeto encontrado para os filtros selecionados.</p>
         )}
+        <ScrollToTopButton />
       </div>
     </motion.section>
   );
