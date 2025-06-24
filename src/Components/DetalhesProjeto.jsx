@@ -1,7 +1,7 @@
 // src/Components/DetalhesProjeto.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import projetosData from '../data/projetos.json';
+import projetosData from '../Data/projetos.json';
 import { motion } from 'framer-motion';
 import ScrollToTopButton from './ScrollToTopButton';
 
