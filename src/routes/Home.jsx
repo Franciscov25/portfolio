@@ -3,6 +3,7 @@ import React from 'react';
 import TypingText from '../Components/Typer';
 import perfilImage from '../assets/eu.png';
 import GitHubContributions from '../Components/GitHubContributions'; // Importe o novo componente
+import ScrollToTopButton from '../Components/ScrollToTopButton'; // Importe o botão de scroll para o topo
 
 const Home = () => {
   const phrases = [
@@ -41,11 +42,11 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Adicione o componente GitHubContributions aqui, abaixo da seção principal */}
-      <div className="w-full mt-16 px-4"> {/* Ajuste o espaçamento conforme necessário */}
+      {/* Seção de Contribuições do GitHub */}
+      <div className="w-full mt-16 px-4">
         <GitHubContributions username={yourGithubUsername} />
       </div>
-
+    <ScrollToTopButton />
     </div>
   );
 };

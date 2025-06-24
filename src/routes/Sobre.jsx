@@ -19,7 +19,7 @@ import avatar from '../assets/avatar.png';
 
 const Sobre = () => {
   return (
-    <section className="text-blue-500 min-h-[calc(100vh-64px)] py-12 px-4 relative z-10">
+    <section className="text-blue-400 min-h-[calc(100vh-64px)] py-12 px-4 relative z-10">
       <div className="mt-20 container mx-auto flex flex-col items-center">
         {/* Título */}
         <motion.h2
@@ -31,9 +31,9 @@ const Sobre = () => {
           Sobre Mim
         </motion.h2>
 
-        {/* Avatar + Descrição */}
+        {/* Eu + Descrição */}
         <motion.div
-          className="flex flex-col md:flex-row items-center bg-zinc-800/90 rounded-xl p-8 shadow-lg max-w-4xl w-full"
+          className="flex flex-col md:flex-row items-center bg-gradient-to-bl from-sky-950 to-black-900 border rounded-xl p-8 shadow-lg max-w-4xl w-full"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}
@@ -63,12 +63,12 @@ const Sobre = () => {
 
           <div className="flex flex-wrap justify-center gap-8">
             {[
-              { icon: FaReact, label: 'React', color: 'text-cyan-400' },
-              { icon: FaPython, label: 'Python', color: 'text-yellow-400' },
-              { icon: SiPandas, label: 'Pandas', color: 'text-pink-400' },
-              { icon: SiArduino, label: 'Arduino', color: 'text-green-400' },
-              { icon: FaJsSquare, label: 'JavaScript', color: 'text-yellow-300' },
-              { icon: FaWind, label: 'Tailwind CSS', color: 'text-sky-400' },
+              { icon: FaReact, label: 'React', color: 'text-blue-300' },
+              { icon: FaPython, label: 'Python', color: 'text-blue-300' },
+              { icon: SiPandas, label: 'Pandas', color: 'text-blue-300' },
+              { icon: SiArduino, label: 'Arduino', color: 'text-blue-300' },
+              { icon: FaJsSquare, label: 'JavaScript', color: 'text-blue-300' },
+              { icon: FaWind, label: 'Tailwind CSS', color: 'text-blue-300' },
             ].map(({ icon: Icon, label, color }, idx) => (
               <Tooltip.Root key={idx}>
                 <Tooltip.Trigger asChild>
@@ -107,7 +107,7 @@ const Sobre = () => {
               { icon: FaComments, label: 'Comunicação' },
             ].map(({ icon: Icon, label }, idx) => (
               <div key={idx} className="flex flex-col items-center">
-                <Icon className="text-4xl text-blue-400 hover:scale-110 transition-transform mb-2" />
+                <Icon className="text-4xl text-blue-300 hover:scale-110 transition-transform mb-2" />
                 <span className="text-sm">{label}</span>
               </div>
             ))}
