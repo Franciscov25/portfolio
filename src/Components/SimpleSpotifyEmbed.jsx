@@ -3,7 +3,7 @@ import React from 'react';
 const SimpleSpotifyEmbed = () => {
   return (
     <div className='p-7'>
-      <div className="border-2 border-blue-400 bg-gradient-to-br from-zinc-900 to-blue-950 bg-zinc-800 rounded-lg p-5 mx-auto my-10 max-w-2xl shadow-lg text-white relative z-10">
+      <div className="border border-blue-400 bg-gradient-to-br from-zinc-900 to-blue-950 rounded-lg p-5 mx-auto my-10 max-w-2xl shadow-lg text-white relative z-10">
         <h2 className="text-2xl font-bold mb-6 text-center text-blue-400">
           Minha Música Favorita
         </h2>
