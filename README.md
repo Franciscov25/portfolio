@@ -1,5 +1,5 @@
 # Portfólio Francisco Vargas | 2025
-![Uploading Captura de tela 2025-06-24 032411.png…]()
+![Captura de tela 2025-06-24 032411](https://github.com/user-attachments/assets/4d1251b9-6d2f-450a-b3d4-28eed65a9e00)
 
 ## 🧾Overview
 Desenvolvi este portfólio como forma de aprofundamento de estudos e para divulgação de trabalhos realizados.
