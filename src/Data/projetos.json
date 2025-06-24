@@ -1,7 +1,7 @@
 [
   {
     "id": 6,
-    "imagem": "/src/assets/img-projeto-6.png",
+    "imagem": "/images/img-projeto-6.png",
     "titulo": "Challenge Hospital Infantil Sabará | Smart Flow - Sprint 4/4",
     "descricao": "Entrega final do projeto Smart Flow, desenvolvido em parceria com o Hospital Infantil Sabará.",
     "data": "15 de Julho de 2025",
@@ -11,11 +11,11 @@
     "detalhes":{
       "titulo": "O que é o Smart Flow?",
       "descricao": "O projeto Smart Flow é um módulo de controle de acessos inteligente que possui integração com o dois sistemas que nós desenvolvemos. O primeiro é para as enfermeiras, e o segundo é para a fármacia.",
-      "imagem": "/src/assets/smartflow-tl.png"
+      "imagem": "/images/smartflow-tl.png"
     },
     "insightsVisuais": {
       "tituloSecao": "Resultados e Inovação",
-      "imagemCentral": "/src/assets/smartflow-result-icon.png",
+      "imagemCentral": "/images/smartflow-result-icon.png",
       "altImagemCentral": "Ícone de resultados Smart Flow",
       "conteudoEsquerda": [
         {
@@ -74,15 +74,15 @@
       "descricao": "Alguns registros visuais do desenvolvimento e testes do Smart Flow, capturados durante nossas sprints e demonstrações.",
       "imagens": [
         {
-          "url": "/src/assets/smartflow-modulo.png",
+          "url": "/images/smartflow-modulo.png",
           "alt": "Protótipo final em bancada"
         },
         {
-          "url": "/src/assets/sistemaEnf.png",
+          "url": "/images/sistemaEnf.png",
           "alt": "Sistema integrado para as enfermeiras"
         },
         {
-          "url": "/src/assets/sistemaFarm.png",
+          "url": "/images/sistemaFarm.png",
           "alt": "Sistema integrado para a farmácia"
         }
       ]
@@ -90,7 +90,7 @@
   },
   {
     "id": 2,
-    "imagem": "/src/assets/img-projeto-2.png",
+    "imagem": "/images/img-projeto-2.png",
     "titulo": "Iniciação Científica - FIAP | Smart Vision",
     "descricao": "Desenvolvimento de um protótipo de óculos inteligentes na Iniciação Científica da FIAP, explorando realidade aumentada para aplicações diversas, como assistência remota e visualização de dados.",
     "data": "21 de Abril de 2024",
@@ -131,7 +131,7 @@
   },
   {
     "id": 1,
-    "imagem": "/src/assets/img-projeto-1.png",
+    "imagem": "/images/img-projeto-1.png",
     "titulo": "Challenge FIAP + Hospital Infantil Sabará | Smart Flow - Sprint 3/4",
     "descricao": "Neste projeto, colaboramos com o Hospital Infantil Sabará para otimizar o fluxo de pacientes, utilizando tecnologia para reduzir o tempo de espera e melhorar a experiência hospitalar.",
     "data": "07 de Maio de 2025",
@@ -142,7 +142,7 @@
     "detalhes":{
       "titulo": "O que é o SmartFlow?",
       "descricao": "O SmartFlow é um projeto desenvolvido para otimizar o fluxo de pacientes no Hospital Infantil Sabará, utilizando tecnologia para melhorar a experiência hospitalar.",
-      "imagem": "/src/assets/smartflow-tl.png"
+      "imagem": "/images/smartflow-tl.png"
     },
     "tecnologiasUtilizadas": [  
       {
@@ -174,7 +174,7 @@
   },
   {
     "id": 3,
-    "imagem": "/src/assets/img-projeto-3.png",
+    "imagem": "/images/img-projeto-3.png",
     "titulo": "Global Solution | Green Energy",
     "descricao": "Projeto focado em soluções de energia sustentável em parceria com a Ultragaz, SAP e ABIHV, visando a redução do impacto ambiental e a promoção de fontes de energia limpa e renovável.",
     "data": "6 de Outubro de 2024",
@@ -184,7 +184,7 @@
     "detalhes":{
       "titulo": "O que é o Green Energy?",
       "descricao": "É uma gamificação trazendo economia, competição e prêmios entre vizinhos. É um jogo onde quem economizar mais energia, concorre aos melhores prêmios, tais como descontos na conta de energia ou em eletrodomésticos.",
-      "imagem": "/src/assets/greenenergy-detalhes.png"
+      "imagem": "/images/greenenergy-detalhes.png"
     },
       "tecnologiasUtilizadas": [  
       {
@@ -216,7 +216,7 @@
   },
   {
     "id": 4,
-    "imagem": "/src/assets/img-projeto-4.png",
+    "imagem": "/images/img-projeto-4.png",
     "titulo": "Hackathon IBM | IA para Gestão de Resíduos",
     "descricao": "Participação em hackathon da IBM, desenvolvendo uma solução de IA para otimizar a gestão de resíduos em grandes centros urbanos, buscando eficiência e sustentabilidade.",
     "data": "15 de Setembro de 2024",
@@ -252,7 +252,7 @@
   },
   {
     "id": 5,
-    "imagem": "/src/assets/img-projeto-5.png",
+    "imagem": "/images/img-projeto-5.png",
     "titulo": "Global Solution | Protech the Future",
     "descricao": "Website com foco em divulgar a nossa solução dentro do tema de desastres naturais, um projeto promovido pela FIAP em parceria com a IBM, Corpo de Bombeiros, Defesa Cívil de Santo andré, Médicos Sem Fronteiras e o INPE.",
     "data": "10 de Agosto de 2024",
@@ -262,7 +262,7 @@
     "detalhes": {
       "titulo": "O que é o Geo Pulse?",
       "descricao": "O Geo Pulse é um projeto pensado para enviar alertas sobre nível de gás, temperatura e umidade, promovendo previsibilidade para áreas de risco de desastres naturais.",
-      "imagem": "/src/assets/geopulse.png"
+      "imagem": "/images/geopulse.png"
     },
     "tecnologiasUtilizadas": [ 
       {
