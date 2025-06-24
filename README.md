@@ -1,11 +1,11 @@
 # Portfólio Francisco Vargas | 2025
-![Captura de tela 2025-06-24 014757](https://github.com/user-attachments/assets/6bf4faeb-8b61-45e5-ae2e-906b29c011a7)
+![Uploading Captura de tela 2025-06-24 032411.png…]()
 
 ## 🧾Overview
 Desenvolvi este portfólio como forma de aprofundamento de estudos e para divulgação de trabalhos realizados.
 
 ## 🔗Links úteis
-Acessar demo do portfólio publicado na Vercel: 
+Acessar demo do portfólio publicado na Vercel: https://portfolio-franciscov25s-projects.vercel.app/
 
 ## 🧑🏾‍💻Tecnologias Utilizadas
 - ReactJS + Vite
