@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import projetosData from '../data/projetos.json';
+import projetosData from '../Data/projetos.json';
 import { motion } from 'framer-motion';
 import { FaStar, FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import ScrollToTopButton from '../Components/ScrollToTopButton';
