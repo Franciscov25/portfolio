@@ -46,29 +46,47 @@
       {
         "nome": "React",
         "icone": "FaReact",
-        "cor": "#61DAFB"
+        "cor": "#38bdf8"
       },
       {
         "nome": "Node.js",
         "icone": "FaNodeJs",
-        "cor": "#8CC84B"
+        "cor": "#38bdf8"
       },
       {
         "nome": "Python",
         "icone": "FaPython",
-        "cor": "#06B6D4"
+        "cor": "#38bdf8"
       },
       {
         "nome": "Flask",
         "icone": "FaFlask",
-        "cor": "#47A248"
+        "cor": "#38bdf8"
       },
       {
         "nome":"IoT",
         "icone": "FaMicrochip",
-        "cor": "#FF5722"
+        "cor": "#38bdf8"
       }
-    ]
+    ],
+    "galeriaImagens": {
+      "tituloSecao": "Galeria do Projeto",
+      "descricao": "Alguns registros visuais do desenvolvimento e testes do Smart Flow, capturados durante nossas sprints e demonstrações.",
+      "imagens": [
+        {
+          "url": "/src/assets/smartflow-modulo.png",
+          "alt": "Protótipo final em bancada"
+        },
+        {
+          "url": "/src/assets/sistemaEnf.png",
+          "alt": "Sistema integrado para as enfermeiras"
+        },
+        {
+          "url": "/src/assets/sistemaFarm.png",
+          "alt": "Sistema integrado para a farmácia"
+        }
+      ]
+    }
   },
   {
     "id": 2,
@@ -76,8 +94,40 @@
     "titulo": "Iniciação Científica - FIAP | Smart Vision",
     "descricao": "Desenvolvimento de um protótipo de óculos inteligentes na Iniciação Científica da FIAP, explorando realidade aumentada para aplicações diversas, como assistência remota e visualização de dados.",
     "data": "21 de Abril de 2024",
-    "area": "Internet of Things (IoT)",
-    "youtube": "https://www.youtube.com/watch?v=m0VWUzefaoI"
+    "area": "Inteligência Artificial",
+    "youtube": "https://www.youtube.com/watch?v=m0VWUzefaoI",
+    "detalhes":{
+      "titulo": "O que é o Smart Vision?",
+      "descricao": "O Smart Vision é uma solução pensada para ajudar pessoas com deficiência auditiva, que utiliza IA para realizar a leitura labial e transcrever isso em texto.",
+      "imagem": ""
+    },
+    "tecnologiasUtilizadas": [  
+      {
+        "nome": "Python",
+        "icone": "FaPython",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "Pandas",
+        "icone": "SiPandas",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome":"PyTorch",
+        "icone": "SiPytorch",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "Ollama",
+        "icone": "SiOllama",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "OpenCV",
+        "icone": "SiOpencv",
+        "cor": "#38bdf8"
+      }
+    ]
   },
   {
     "id": 1,
@@ -85,20 +135,84 @@
     "titulo": "Challenge FIAP + Hospital Infantil Sabará | Smart Flow - Sprint 3/4",
     "descricao": "Neste projeto, colaboramos com o Hospital Infantil Sabará para otimizar o fluxo de pacientes, utilizando tecnologia para reduzir o tempo de espera e melhorar a experiência hospitalar.",
     "data": "07 de Maio de 2025",
-    "area": "Back-end",
+    "area": "Internet of Things (IoT)",
     "github": "https://github.com/GrupoCodeNexus/Sprint-EDGE",
     "linkedin": "https://www.linkedin.com/posts/franciscovargas7_challenge-fiap-hospital-infantil-sabará-activity-7326006383823228929",
-    "youtube": "https://www.youtube.com/shorts/KnQHdxY6k8I"
+    "youtube": "https://www.youtube.com/shorts/KnQHdxY6k8I",
+    "detalhes":{
+      "titulo": "O que é o SmartFlow?",
+      "descricao": "O SmartFlow é um projeto desenvolvido para otimizar o fluxo de pacientes no Hospital Infantil Sabará, utilizando tecnologia para melhorar a experiência hospitalar.",
+      "imagem": "/src/assets/smartflow-tl.png"
+    },
+    "tecnologiasUtilizadas": [  
+      {
+        "nome": "Python",
+        "icone": "FaPython",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "React",
+        "icone": "FaReact",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome":"Node.js",
+        "icone": "FaNodeJs",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "GitHub",
+        "icone": "FaGithub",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "IoT",
+        "icone": "FaMicrochip",
+        "cor": "#38bdf8"
+      }
+    ]
   },
   {
     "id": 3,
     "imagem": "/src/assets/img-projeto-3.png",
     "titulo": "Global Solution | Green Energy",
-    "descricao": "Projeto focado em soluções de energia sustentável para a Global Solution, visando a redução do impacto ambiental e a promoção de fontes de energia limpa e renovável.",
+    "descricao": "Projeto focado em soluções de energia sustentável em parceria com a Ultragaz, SAP e ABIHV, visando a redução do impacto ambiental e a promoção de fontes de energia limpa e renovável.",
     "data": "6 de Outubro de 2024",
-    "area": "Front-end",
+    "area": "Software Design",
     "youtube": "https://www.youtube.com/watch?v=iBvb_p-wRn4",
-    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_tenho-prazer-de-compartilhar-este-projeto-activity-7308973689411190784-DFXx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpiFLwB7nRmu7mYAZD2wto4Tpc4heIsmcU"
+    "linkedin": "https://www.linkedin.com/posts/franciscovargas7_tenho-prazer-de-compartilhar-este-projeto-activity-7308973689411190784-DFXx?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADpiFLwB7nRmu7mYAZD2wto4Tpc4heIsmcU",
+    "detalhes":{
+      "titulo": "O que é o Green Energy?",
+      "descricao": "É uma gamificação trazendo economia, competição e prêmios entre vizinhos. É um jogo onde quem economizar mais energia, concorre aos melhores prêmios, tais como descontos na conta de energia ou em eletrodomésticos.",
+      "imagem": "/src/assets/greenenergy-detalhes.png"
+    },
+      "tecnologiasUtilizadas": [  
+      {
+        "nome": "Software Design",
+        "icone": "FaLightbulb",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "Mobile First Design",
+        "icone": "FaMobileAlt",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome":"Design Visual",
+        "icone": "FaPaintBrush",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "Paleta de Cores",
+        "icone": "FaPalette",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "Criatividade",
+        "icone": "FaBrain",
+        "cor": "#38bdf8"
+      }
+    ]
   },
   {
     "id": 4,
@@ -107,7 +221,34 @@
     "descricao": "Participação em hackathon da IBM, desenvolvendo uma solução de IA para otimizar a gestão de resíduos em grandes centros urbanos, buscando eficiência e sustentabilidade.",
     "data": "15 de Setembro de 2024",
     "area": "Inteligência Artificial",
-    "github": "https://github.com/RockSolutionsFIAP/AnalisIA"
+    "github": "https://github.com/RockSolutionsFIAP/AnalisIA",
+    "tecnologiasUtilizadas": [  
+      {
+        "nome": "Python",
+        "icone": "FaPython",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "Pandas",
+        "icone": "SiPandas",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome":"Streamlit",
+        "icone": "SiStreamlit",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "OpenAi",
+        "icone": "SiOpenai",
+        "cor": "#38bdf8"
+      },
+      {
+        "nome": "GitHub",
+        "icone": "FaGithub",
+        "cor": "#38bdf8"
+      }
+    ]
   },
   {
     "id": 5,
@@ -126,28 +267,28 @@
     "tecnologiasUtilizadas": [ 
       {
         "nome": "React",
-        "icone": "FaReact",
-        "cor": "#61DAFB"
+        "icone": "SiReact",
+        "cor": "#38bdf8"
       },
       {
         "nome": "Node.js",
         "icone": "FaNodeJs",
-        "cor": "#8CC84B"
+        "cor": "#38bdf8"
       },
       {
         "nome": "Tailwind CSS",
-        "icone": "FaCss3Alt",
-        "cor": "#06B6D4"
+        "icone": "SiTailwindcss",
+        "cor": "#38bdf8"
       },
       {
-        "nome": "Framer Motion",
-        "icone": "FaSquare",
-        "cor": "#AD2BFF"
+        "nome": "GitHub",
+        "icone": "FaGithub",
+        "cor": "#38bdf8"
       },
       {
         "nome": "React Icons",
         "icone": "FaIcons",
-        "cor": "#47A248"
+        "cor": "#38bdf8"
       }
     ]
   }
