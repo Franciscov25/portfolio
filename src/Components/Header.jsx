@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home as HomeIcon, User as UserIcon, Code as CodeIcon, Mail as MailIcon } from 'lucide-react'; // Ícones lucide-react
+import logo from '../assets/logo-fv.png';
 
 const Header = () => {
   const location = useLocation(); // Hook para pegar a localização atual da rota
@@ -31,12 +32,12 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 py-4 px-6 flex items-center justify-between transition-colors duration-300
-        ${scrolled ? 'bg-zinc-900 bg-opacity-70 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}
+        ${scrolled ? 'bg-zinc-900/40 bg-opacity-70 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}
     >
       <div className="flex items-center space-x-2">
         {/* Logo ou Nome do Portfólio */}
         <Link to="/" className="text-orange-500 text-3xl font-bold flex items-center gap-2">
-          <span className="text-blue-400 text-4xl font-extrabold">FV</span>
+          <img src={logo} alt="Logo Francisco Vargas" className="w-10 h-10 rounded-full" />
         </Link>
       </div>
 
