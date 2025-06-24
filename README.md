@@ -1,20 +1,24 @@
 # Portfólio Francisco Vargas | 2025
-img
+![Captura de tela 2025-06-24 014757](https://github.com/user-attachments/assets/6bf4faeb-8b61-45e5-ae2e-906b29c011a7)
 
-## Overview
+## 🧾Overview
 Desenvolvi este portfólio como forma de aprofundamento de estudos e para divulgação de trabalhos realizados.
 
-## Tecnologias Utilizadas
-- ReactJS + Vite ⚛️
+## 🔗Links úteis
+Acessar demo do portfólio publicado na Vercel: 
+
+## 🧑🏾‍💻Tecnologias Utilizadas
+- ReactJS + Vite
 - Tailwind CSS
 - React Router Dom
-- Particle.js
 - Lucide React
 - React Icons
 - Radix UI
 - Framer Motion
+- Typewritter Effect
+- Particle.js
 
-## API's 
+## 🧩API's 
 - GitHub
 - Spotify
 
@@ -40,5 +44,5 @@ npm run dev
 
 ✅ Abra o seu localhost e confira o resultado!
 
-## Participantes
-- Francisco Vargas Marçal | RM560322
+## Autor
+- Francisco Vargas Marçal
