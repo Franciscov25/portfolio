@@ -20,7 +20,7 @@ const ParticlesBackground = () => {
       options={{
         background: {
           color: {
-            value: "#0a0a0a", // Cor de fundo das partículas (bem escura, para simular o espaço)
+            value: "#0a0a0a", // Cor de fundo das partículas
           },
         },
         fpsLimit: 120,
@@ -28,21 +28,21 @@ const ParticlesBackground = () => {
           events: {
             onClick: {
               enable: true, // Desabilita a interação ao clique para um efeito de estrelas mais limpo
-              mode: "push", // Manter caso queira habilitar e usar, mas por padrão desabilitado
+              mode: "push", // por padrão desabilitado
             },
             onHover: {
               enable: true,
-              mode: "repulse", // O modo "repulse" é o melhor para o efeito de proximidade do mouse
+              mode: "repulse", // efeito de repulsão ao passar o mouse
             },
             resize: true,
           },
           modes: {
             push: {
-              quantity: 4, // Ainda aqui caso onClick seja reativado
+              quantity: 4, // Quantidade de partículas adicionadas ao clicar
             },
             repulse: { // Configuração para o modo 'repulse'
-              distance: 80, // Distância em que o mouse "afasta" as partículas
-              duration: 0.4, // Duração da animação de repulsa
+              distance: 80, // Distância em que o mouse afasta as particles
+              duration: 0.4, // Duração da animação de repulsa, bem rápida
               speed: 0.5, // Velocidade com que as partículas se movem ao serem repelidas
               factor: 100, // Força do efeito de repulsa (maior valor = mais forte)
               maxSpeed: 50, // Velocidade máxima que as partículas podem atingir
@@ -54,10 +54,10 @@ const ParticlesBackground = () => {
             value: "#4cc9f0", // cor das estrelas
           },
           links: {
-            enable: false, // Desabilita as linhas para um efeito de céu estrelado mais realista
+            enable: false, // Desabilita as linhas entre as particles
           },
           collisions: {
-            enable: true, // Manter colisões pode dar um movimento mais interessante
+            enable: true, // Habilita colisões, pensando em uma simulação mais realista
           },
           move: {
             direction: "none",
@@ -74,15 +74,15 @@ const ParticlesBackground = () => {
               enable: true,
               area: 800,
             },
-            value: 120, // Aumenta a quantidade para um céu mais denso
+            value: 120, // Aumenta a quantidade de particles
           },
           opacity: {
             value: 0.7, // Opacidade base
-            random: true, // Varia a opacidade para um efeito de "cintilar"
+            random: true, // Varia a opacidade
             animation: {
               enable: true,
               speed: 1,
-              minimumValue: 0.1, // Algumas estrelas podem ser quase invisíveis
+              minimumValue: 0.1, // Algumas estrelas podem ser quase invisíveis, mas por ser animação, elas ficam piscando
               sync: false
             }
           },

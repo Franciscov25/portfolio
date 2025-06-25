@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import React from 'react';
 import linkedin from '../assets/icon-linkedin.png';
 import github from '../assets/github.png';

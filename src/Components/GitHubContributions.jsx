@@ -1,11 +1,11 @@
 import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
-// Importe os componentes de Tooltip da Radix UI
+// Importando os componentes de Tooltip da Radix UI
 import * as Tooltip from '@radix-ui/react-tooltip';
 
 const GitHubContributions = ({ username }) => {
   const theme = {
-    dark: ['#2a2a2a', '#081c2c', '#01497c', '#018abe', '#00c9fa'], // Cores de contribuição
+    dark: ['#2a2a2a', '#081c2c', '#01497c', '#018abe', '#00c9fa'], // Cores
   };
 
   return (
@@ -30,7 +30,7 @@ const GitHubContributions = ({ username }) => {
         Minhas Contribuições no GitHub
       </h2>
 
-      {/* GitHubCalendar precisa de um provedor de tooltip da Radix */}
+      {/* GitHubCalendar precisa de um provider de tooltip da Radix */}
       <Tooltip.Provider>
         <GitHubCalendar
           username={username}

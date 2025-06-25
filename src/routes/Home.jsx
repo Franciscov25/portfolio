@@ -1,9 +1,8 @@
-// src/routes/Home.jsx
 import React from 'react';
 import TypingText from '../Components/Typer';
 import perfilImage from '../assets/eu.png';
-import GitHubContributions from '../Components/GitHubContributions'; // Importe o novo componente
-import ScrollToTopButton from '../Components/ScrollToTopButton'; // Importe o botão de scroll para o topo
+import GitHubContributions from '../Components/GitHubContributions';
+import ScrollToTopButton from '../Components/ScrollToTopButton'; 
 
 const Home = () => {
   const phrases = [
@@ -12,8 +11,7 @@ const Home = () => {
     "Entusiasta em Dados e IA",
   ];
 
-  // Seu nome de usuário do GitHub
-  const yourGithubUsername = "Franciscov25"; //
+  const yourGithubUsername = "Franciscov25"; //nome de user no GitHub, vai pegar as contribuições do mesmo
 
   return (
     <div className='text-white min-h-[calc(100vh-64px)] flex flex-col items-center justify-center py-12 px-4 relative z-10'>

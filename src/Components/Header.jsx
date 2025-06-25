@@ -1,4 +1,3 @@
-// src/Components/Header.jsx
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home as HomeIcon, User as UserIcon, Code as CodeIcon, Mail as MailIcon } from 'lucide-react'; // Ícones lucide-react
@@ -11,8 +10,8 @@ const Header = () => {
   // Efeito para adicionar/remover a classe de scroll
   useEffect(() => {
     const handleScroll = () => {
-      // Se a posição do scroll vertical for maior que 20 pixels (ajuste conforme necessário)
-      // então setScrolled(true), caso contrário setScrolled(false).
+      // Se a posição do scroll vertical for maior que 20 pixels 
+      // então setScrolled(true), caso contrário setScrolled(false)
       if (window.scrollY > 20) {
         setScrolled(true);
       } else {
@@ -23,7 +22,7 @@ const Header = () => {
     // Adiciona o event listener de scroll quando o componente é montado
     window.addEventListener('scroll', handleScroll);
 
-    // Remove o event listener quando o componente é desmontado para evitar vazamento de memória
+    // Remove o event listener quando o componente é desmontado
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -35,7 +34,7 @@ const Header = () => {
         ${scrolled ? 'bg-zinc-900/40 bg-opacity-70 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}
     >
       <div className="flex items-center space-x-2">
-        {/* Logo ou Nome do Portfólio */}
+        {/* Logo */}
         <Link to="/" className="text-orange-500 text-3xl font-bold flex items-center gap-2">
           <img src={logo} alt="Logo Francisco Vargas" className="w-10 h-10 rounded-full" />
         </Link>

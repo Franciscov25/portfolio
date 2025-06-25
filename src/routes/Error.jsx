@@ -1,11 +1,8 @@
-// src/routes/Error.jsx
 import React from 'react'
 import { Link } from 'react-router-dom';
 
 const Error = () => {
   return (
-    // REMOVIDO: relative z-10
-    // min-h-[calc(100vh-64px)] está correto
     <div className='text-white min-h-[calc(100vh-64px)] flex flex-col justify-center items-center p-4'>
       <h2 className="text-4xl font-bold text-blue-400 mb-4">Erro 404</h2>
       <p className="text-xl text-gray-300 mb-6">Página não encontrada :(</p>

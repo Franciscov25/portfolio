@@ -1,4 +1,3 @@
-// src/components/ScrollToTopButton.jsx
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowUpCircle } from 'lucide-react';
@@ -28,7 +27,7 @@ const ScrollToTopButton = () => {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 50 }}
           transition={{ duration: 0.4 }}
-          className="fixed bottom-36 sm:bottom-36 md:bottom-40 right-4 sm:right-6 z-[9999]" // ⬅️ distanciado do footer
+          className="fixed bottom-36 sm:bottom-36 md:bottom-40 right-4 sm:right-6 z-[9999]" 
         >
           <Tooltip.Provider>
             <Tooltip.Root>

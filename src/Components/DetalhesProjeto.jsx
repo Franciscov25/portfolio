@@ -1,19 +1,18 @@
-// src/Components/DetalhesProjeto.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import projetosData from '../Data/projetos.json';
 import { motion } from 'framer-motion';
 import ScrollToTopButton from './ScrollToTopButton';
 
-// Radix UI for accessible modal
+// Radix UI
 import * as Dialog from '@radix-ui/react-dialog';
 
-// Importar todos os ícones necessários para uso dinâmico
+// Importando todos os ícones necessários 
 import * as FaIcons from 'react-icons/fa';
-import * as SiIcons from 'react-icons/si'; // Exemplo: Importar ícones de Simple Icons para mais opções
-import { FaXmark } from 'react-icons/fa6'; // Icon for modal close button
+import * as SiIcons from 'react-icons/si'; 
+import { FaXmark } from 'react-icons/fa6'; 
 
-// Importar imagens extras (caso precise usar localmente)
+// Importar imagens extras (para usar localmente)
 import imgSmartFlow from '../assets/smartflow-tl.png';
 import imgSmartFlowResultIcon from '../assets/smartflow-modulo.png';
 
@@ -24,7 +23,7 @@ const imagensExtras = {
 
 const imagensCentrais = {
   6: imgSmartFlowResultIcon,
-  // Adicione outras imagens centrais aqui conforme necessário
+  // posso adicionar outras imagens centrais aqui se necessário
 };
 
 
@@ -256,7 +255,7 @@ const DetalhesProjeto = () => {
             transition={{ duration: 0.7, ease: 'easeOut' }}
             className="border border-blue-400 mt-12 rounded-lg p-6 md:p-10 shadow-lg relative overflow-hidden"
           >
-            {/* Background Sutil para a seção de tecnologias */}
+            {/* Background para a seção de tecnologias */}
             <div className="absolute inset-0 bg-gradient-to-tl from-zinc-900 via-zinc-900 to-blue-800 opacity-10 rounded-lg"></div>
 
             <div className="relative z-10">
@@ -365,7 +364,6 @@ const DetalhesProjeto = () => {
             </div>
           </motion.section>
         )}
-        {/* FIM DA NOVA SEÇÃO */}
 
       </div>
       <ScrollToTopButton />

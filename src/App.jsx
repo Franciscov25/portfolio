@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import * as Tooltip from "@radix-ui/react-tooltip"; // ✅ Importa o Provider do Radix UI
+import * as Tooltip from "@radix-ui/react-tooltip"; // Importando o Provider do Radix UI
 
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
@@ -30,7 +30,7 @@ function AppWrapper() {
           <Route path="*" element={<Error />} />
         </Routes>
 
-        {/* Renderiza o Spotify apenas na Home */}
+        {/* Renderizando o Spotify apenas na Home */}
         {location.pathname === "/" && <SimpleSpotifyEmbed />}
       </main>
 
